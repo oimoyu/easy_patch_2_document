@@ -1,0 +1,6 @@
+gettext/
+temp/
+locales/
+source/_static/
+_sources/
+.doctrees

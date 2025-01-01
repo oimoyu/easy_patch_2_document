@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, oimoyu
+# This file is distributed under the same license as the Easy Patch 2
+# Document package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Patch 2 Document\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 19:56+0800\n"
+"PO-Revision-Date: 2025-01-01 20:00+0800\n"
+"Last-Translator: \n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: ../../source/get_start.rst:2
+msgid "Get start"
+msgstr "始めましょう"
+
+#: ../../source/get_start.rst:5
+msgid "Usage"
+msgstr "使用法"
+
+#: ../../source/get_start.rst:6
+msgid ""
+"After install addon, you will see the button in the N panel -> Edit -> "
+"Easy Patch.(only appear in edit mode)"
+msgstr ""
+"アドオンをインストールすると、N パネル -> 編集 -> Easy Patch にボタンが"
+"表示されます。(編集モードでのみ表示されます)"
+
+#: ../../source/get_start.rst:7
+msgid "Choose obj you want to snap."
+msgstr "スナップしたいオブジェクトを選択します。"
+
+#: ../../source/get_start.rst:8
+msgid "Click start button."
+msgstr "スタートボタンをクリックします。"
+
+#: ../../source/get_start.rst:9
+msgid "Click and drag mouse to draw boundary.(ctrl for snap to vertex)"
+msgstr ""
+"マウスをクリックしてドラッグし、境界を描きます。(頂点にスナップするに"
+"は Ctrl キーを押します)"
+
+#: ../../source/get_start.rst:10
+msgid "After the boundary forms a loop, addon will generate the patch."
+msgstr "境界がループを形成した後、アドオンはパッチを生成します。"
+
+#: ../../source/get_start.rst:11
+msgid "Press enter to apply mesh."
+msgstr "メッシュを適用するには Enter キーを押します。"

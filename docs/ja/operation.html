@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="ja" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>操作 &mdash; Easy Patch 2 Document  ドキュメント</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=4eb6406d"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=4dbe4bdc"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" />
+    <link rel="next" title="使用例" href="usage_example.html" />
+    <link rel="prev" title="始めましょう" href="get_start.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Easy Patch 2 Document
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">概要</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_start.html">始めましょう</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">操作</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#snapping-to-vertex">頂点へのスナップ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snapping-to-paths">パスへのスナップ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snapping-to-surfaces">サーフェスへのスナップ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-snapping-to-the-back-face">背面へのスナップを有効にする</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#drawing-on-axis-of-symmetry">対称軸を描く</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changing-segment-number">セグメント番号の変更</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#switching-patterns">パターンの切り替え</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changing-solver-constraints-padding-and-additional-edge-flow">ソルバー制約の変更（パディングと追加エッジフロー）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changing-pattern-rotation">パターンの回転を変更する</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#solver-suggestion">ソルバーの提案</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#smoothing-mesh">スムージングメッシュ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snap-selected-vertices-to-surface-button">「選択した頂点をサーフェスにスナップ」ボタン</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#available-patch-patterns">利用可能なパッチパターン</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage_example.html">使用例</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">よくある質問</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Easy Patch 2 Document</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">操作</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="operation">
+<h1>操作<a class="headerlink" href="#operation" title="Link to this heading"></a></h1>
+<section id="snapping-to-vertex">
+<h2>頂点へのスナップ<a class="headerlink" href="#snapping-to-vertex" title="Link to this heading"></a></h2>
+<p>エッジフロー境界を描画しているときに、Ctrl キーを押したままにして頂点にスナップします。</p>
+<video width="70%" controls src="../static/snap_to_exsit_vertex.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="snapping-to-paths">
+<h2>パスへのスナップ<a class="headerlink" href="#snapping-to-paths" title="Link to this heading"></a></h2>
+<p>エッジフロー境界を描画しているときに、Ctrl キーと Shift キーを押したままにしてパスにスナップします。</p>
+<video width="70%" controls src="../static/snap_to_exsit_path.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="snapping-to-surfaces">
+<h2>サーフェスへのスナップ<a class="headerlink" href="#snapping-to-surfaces" title="Link to this heading"></a></h2>
+<p>S キーを押すと、オブジェクトの表面にスナップするかどうかが切り替わります。</p>
+<video width="50%" controls src="../static/boundary_snap_to_surface.mp4">
+  Your browser does not support the video tag.
+</video><video width="50%" controls src="../static/pattern_snap_to_surface.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="enable-snapping-to-the-back-face">
+<h2>背面へのスナップを有効にする<a class="headerlink" href="#enable-snapping-to-the-back-face" title="Link to this heading"></a></h2>
+<p>法線方向と反対のサーフェスにスナップするかどうかを切り替えるには、V キーを押します。</p>
+<video width="70%" controls src="../static/snap_to_opposit_face.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="drawing-on-axis-of-symmetry">
+<h2>対称軸を描く<a class="headerlink" href="#drawing-on-axis-of-symmetry" title="Link to this heading"></a></h2>
+<p>M キーを押すと、yz 平面に描画するかどうかが切り替わります。エッジフロー境界を描画した後、このオプションは自動的に無効に設定され、Ctrl + M を押すと有効のままになります。</p>
+<video width="70%" controls src="../static/draw_on_axis_of_sym.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="changing-segment-number">
+<h2>セグメント番号の変更<a class="headerlink" href="#changing-segment-number" title="Link to this heading"></a></h2>
+<p>エッジフロー境界にマウスを移動すると、Ctrl キーを押しながらマウス ホイールを押すとセグメントを変更できます。</p>
+<video width="70%" controls src="../static/chaning_segment.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="switching-patterns">
+<h2>パターンの切り替え<a class="headerlink" href="#switching-patterns" title="Link to this heading"></a></h2>
+<p>ループにカーソルを合わせると、T キーを押してパターン制約を変更し、特定のパターンを取得できます。</p>
+<p>B キーを押すと、解のない図形をスキップするかどうかを切り替えます。このオプションを有効にすると、切り替え時に解のない図形は自動的にスキップされます。</p>
+<video width="70%" controls src="../static/switch_pattern_shape.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="changing-solver-constraints-padding-and-additional-edge-flow">
+<h2>ソルバー制約の変更（パディングと追加エッジフロー）<a class="headerlink" href="#changing-solver-constraints-padding-and-additional-edge-flow" title="Link to this heading"></a></h2>
+<p>ループにマウスを置いたときに、Shift キーを押しながらマウスホイールを押すと、境界のパディングを変更できます。</p>
+<p>追加のエッジ フローの数を減らすには Ctrl + x、y、z を使用し、追加のエッジ フローの数を増やすには Shift + x、y、z を使用します。</p>
+<video width="70%" controls src="../static/changing_pattern_padding.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="changing-pattern-rotation">
+<h2>パターンの回転を変更する<a class="headerlink" href="#changing-pattern-rotation" title="Link to this heading"></a></h2>
+<p>ループにカーソルを合わせると、R キーを押してソルバーに回転制約を追加できます。</p>
+<video width="70%" controls src="../static/changing_pattern_rotation.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="solver-suggestion">
+<h2>ソルバーの提案<a class="headerlink" href="#solver-suggestion" title="Link to this heading"></a></h2>
+<p>制約で解決できない場合は、実行可能なソリューションを得るための変更セグメントの提案が表示されます。この提案はソルバーによって推測されるものであり、唯一のソリューションではなく、ソリューションの 1 つです。</p>
+<video width="70%" controls src="../static/solver_suggestion.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="smoothing-mesh">
+<h2>スムージングメッシュ<a class="headerlink" href="#smoothing-mesh" title="Link to this heading"></a></h2>
+<p>生成されたメッシュを含むループにカーソルを合わせると、Shift + 1 2 3 を押すと、3 つのアルゴリズムでメッシュが滑らかになります。</p>
+<p>最後の 3 つ目は法線方向によるスムージングです。これは滑らかな表面へのパッチに役立ちます。</p>
+<video width="70%" controls src="../static/smooth_by_face_normal_direction.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="snap-selected-vertices-to-surface-button">
+<h2>「選択した頂点をサーフェスにスナップ」ボタン<a class="headerlink" href="#snap-selected-vertices-to-surface-button" title="Link to this heading"></a></h2>
+<p>ボタンをクリックすると、選択した頂点がターゲット オブジェクトにスナップされます。</p>
+</section>
+<hr class="docutils" />
+<section id="available-patch-patterns">
+<h2>利用可能なパッチパターン<a class="headerlink" href="#available-patch-patterns" title="Link to this heading"></a></h2>
+<p>これはパターン形状のパッチです。一般的に、パターン 0 が最もきれいです。他のパターンはエッジの数による妥協です。最もきれいなトポロジ形状を得るには、パターン 0 を選択します。</p>
+<a href="../static/patterns.png" target="_blank">
+    <img src="../static/patterns.png" style="width: 100%;" />
+</a><hr class="docutils" />
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="get_start.html" class="btn btn-neutral float-left" title="始めましょう" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="usage_example.html" class="btn btn-neutral float-right" title="使用例" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, oimoyu.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span id="language-label" class="rst-current-version" data-toggle="rst-current-version">
+    Select Language
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+    <dl>
+      <dt>Languages</dt>
+      
+      <dd><a href="javascript:void(0)" class="switch-lang" data-lang="en">English</a></dd><br>
+      
+      <dd><a href="javascript:void(0)" class="switch-lang" data-lang="zh">中文</a></dd><br>
+      
+      <dd><a href="javascript:void(0)" class="switch-lang" data-lang="ja">日本語</a></dd><br>
+      
+    </dl>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var userLang = navigator.language || navigator.userLanguage;
+      if (userLang.startsWith('zh')) {
+        document.getElementById('language-label').textContent = '选择语言';
+      }
+      else if (userLang.startsWith('ja')) {
+        document.getElementById('language-label').textContent = '言語を選択';
+      }
+      else {
+        document.getElementById('language-label').textContent = 'Select Language';
+      }
+
+      document.querySelectorAll('.switch-lang').forEach(function (link) {
+        link.addEventListener('click', function () {
+          var target_lang_id = this.getAttribute('data-lang'); // 获取语言代码
+          var langs = ['en', 'zh', 'ja', ];
+
+      var current_lang_id = "";
+      for (var i = 0; i < langs.length; i++) {
+        if (window.location.pathname.indexOf("/" + langs[i] + "/") !== -1) {
+          current_lang_id = langs[i];
+          break;
+        }
+      }
+      if (!current_lang_id) {
+        alert("language not found");
+      } else {
+        window.location.pathname = window.location.pathname.replace(new RegExp("/" + current_lang_id + "/", "g"), "/" + target_lang_id + "/");
+      }
+
+
+    });
+
+      });
+
+    });
+  </script>
+
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

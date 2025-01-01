@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, oimoyu
+# This file is distributed under the same license as the Easy Patch 2
+# Document package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Patch 2 Document\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 19:56+0800\n"
+"PO-Revision-Date: 2025-01-01 20:15+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Generator: Poedit 3.5\n"
+
+#: ../../source/faq.rst:2
+msgid "FAQ"
+msgstr "常见问题"
+
+#: ../../source/faq.rst:5
+msgid "It freezes a while after clicking start button."
+msgstr "单击开始按钮后，它会卡顿一下。"
+
+#: ../../source/faq.rst:6
+msgid ""
+"When you click start and leave the snap obj input empty, then the addon will "
+"calculate all obj in your blender file as snap target. So if you have a snap "
+"targert, choose it before start."
+msgstr ""
+"当单击“开始”并将捕捉对象输入留空时，插件将计算 blender 文件中的所有对象作为捕捉"
+"目标。因此，如果您有捕捉目标，请在开始前选择它。"
+
+#: ../../source/faq.rst:9
+msgid "what is \"not even number edges\" mean?"
+msgstr "“非偶数边”是什么意思？"
+
+#: ../../source/faq.rst:10
+msgid "Odd number of edges and loops cannot be filled by quads.(Euler's formula)"
+msgstr "奇数条边不能被四边形填充。（欧拉公式）"
+
+#: ../../source/faq.rst:13
+msgid "Why I can't snap to the vertices?"
+msgstr "为何我无法吸附到顶点？"
+
+#: ../../source/faq.rst:14
+msgid ""
+"If you enable the \"snap to the back face\" and the vertex you want to snap is "
+"belongs to a opposite normal face, then you can not snap to it."
+msgstr ""
+"如果您启用“捕捉到背面”并且您想要捕捉的顶点属于相反的法线面，那么您就无法捕捉到"
+"它。"
+
+#: ../../source/faq.rst:16
+msgid "Solution: ① Disable the option ② flip face normal to ward you."
+msgstr "解决方法： ① 禁用选项 ② 翻转面法线方向朝向你。"

@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, oimoyu
+# This file is distributed under the same license as the Easy Patch 2
+# Document package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Patch 2 Document\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 19:56+0800\n"
+"PO-Revision-Date: 2025-01-01 20:26+0800\n"
+"Last-Translator: \n"
+"Language-Team: zh <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Generator: Poedit 3.5\n"
+
+#: ../../source/operation.rst:2
+msgid "Operation"
+msgstr "操作"
+
+#: ../../source/operation.rst:5
+msgid "Snapping to Vertex"
+msgstr "吸附到顶点"
+
+#: ../../source/operation.rst:6
+msgid "While drawing an edgeflow boundary, hold down Ctrl to snap to Vertex."
+msgstr "绘制边缘流边界时，按住 Ctrl 键捕捉到顶点。"
+
+#: ../../source/operation.rst:19
+msgid "Snapping to Paths"
+msgstr "吸附路径"
+
+#: ../../source/operation.rst:20
+msgid ""
+"While drawing an edgeflow boundary, hold down Ctrl and Shift to snap to paths."
+msgstr "绘制边缘流边界时，按住 Ctrl 和 Shift 即可捕捉路径。"
+
+#: ../../source/operation.rst:32
+msgid "Snapping to Surfaces"
+msgstr "吸附至表面"
+
+#: ../../source/operation.rst:33
+msgid "Press the S key to toggle if snapping to object surfaces."
+msgstr "按 S 键切换是否捕捉到物体表面。"
+
+#: ../../source/operation.rst:50
+msgid "Enable Snapping to the Back Face"
+msgstr "启用捕捉背面"
+
+#: ../../source/operation.rst:51
+msgid ""
+"Press the V key to toggle if snapping to surfaces opposite the normal "
+"direction."
+msgstr "按 V 键切换是否捕捉到与法线方向相反的表面。"
+
+#: ../../source/operation.rst:62
+msgid "Drawing on Axis of Symmetry"
+msgstr "绘制到对称轴上"
+
+#: ../../source/operation.rst:63
+msgid ""
+"Press the M key to toggle if drawing on the yz plane. After you draw a "
+"edgeflow boundary, this option will auto set to disable, you can press ctrl+M "
+"to keep this enable."
+msgstr ""
+"按 M 键切换是否在 yz 平面上绘制。绘制边缘流边界后，此选项将自动设置为禁用，您"
+"可以按 ctrl+M 保持启用状态。"
+
+#: ../../source/operation.rst:74
+msgid "Changing Segment number"
+msgstr "更改分段数"
+
+#: ../../source/operation.rst:75
+msgid ""
+"When you hovering a edgeflow boundary, ctrl+mouse wheel can change the "
+"segment."
+msgstr "当您将鼠标悬停在边缘流边界上时，按 ctrl + 鼠标滚轮可以更改该段。"
+
+#: ../../source/operation.rst:86
+msgid "Switching Patterns"
+msgstr "切换形状"
+
+#: ../../source/operation.rst:87
+msgid ""
+"When you hovering a Loop, you can press T to changing the pattern constraint "
+"to get specific pattern."
+msgstr "当您将鼠标悬停在环路上时，您可以按 T 来更改模式约束以获取特定形状。"
+
+#: ../../source/operation.rst:89
+msgid ""
+"Press the B key to toggle whether to skip shapes with no solution. When this "
+"option is enabled, shapes without solutions will be automatically skipped "
+"when switching."
+msgstr "按B键切换是否跳过无解的形状，开启此选项后，切换时会自动跳过无解的形状。"
+
+#: ../../source/operation.rst:100
+msgid "Changing Solver Constraints (Padding and Additional Edge Flow)"
+msgstr "改变求解器约束（填充和附加边缘流）"
+
+#: ../../source/operation.rst:101
+msgid ""
+"When you hovering a Loop, you can press shift+mouse wheel to hange the "
+"padding of a boundary."
+msgstr "当您将鼠标悬停在环路上时，您可以按 shift+鼠标滚轮来更改边界的填充。"
+
+#: ../../source/operation.rst:103
+msgid ""
+"Use Ctrl + x,y,z to reduce the number of additional edge flows, Shift + x,y,z "
+"to increase the number of additional edge flows."
+msgstr ""
+"使用 Ctrl + x,y,z 减少附加边流的数量，使用 Shift + x,y,z 增加附加边流的数量。"
+
+#: ../../source/operation.rst:114
+msgid "Changing Pattern Rotation"
+msgstr "改变图案旋转"
+
+#: ../../source/operation.rst:115
+msgid ""
+"When you hovering a Loop, you can press R to add rotation constraint to "
+"solver."
+msgstr "当您将鼠标悬停在环路上时，您可以按 R 为解算器添加旋转约束。"
+
+#: ../../source/operation.rst:126
+msgid "Solver Suggestion"
+msgstr "求解器建议"
+
+#: ../../source/operation.rst:127
+msgid ""
+"When the resolution can not solve with your constraint, there will be a "
+"changing segment suggestion to guide you get a feasible solution, this "
+"suggestion is guess by solver, and is one fot the solution, not the only one."
+msgstr ""
+"当解决方案不能用你的约束条件解决时，会有一个变化的片段建议来指导你得到一个可行"
+"的解决方案，这个建议是求解器猜测的，并且是解决方案之一，而不是唯一的。"
+
+#: ../../source/operation.rst:138
+msgid "Smoothing Mesh"
+msgstr "平滑网格"
+
+#: ../../source/operation.rst:139
+msgid ""
+"When you hovering a Loop with a generated mesh, press Shift + 1 2 3 to smooth "
+"the mesh with three algorithm."
+msgstr ""
+"当将鼠标悬停在已生成的网格的循环上时，按 Shift + 1 2 3 可使用三种算法来平滑网"
+"格。"
+
+#: ../../source/operation.rst:141
+msgid ""
+"The last thrid one is smoothing by normal direction. It is useful for patches "
+"to a smooth surfaces."
+msgstr "最后第三个是按法线方向平滑。这对于平滑表面很有用。"
+
+#: ../../source/operation.rst:152
+msgid "\"Snap Selected Vertices to surface\" Button"
+msgstr "“将选定顶点捕捉到表面”按钮"
+
+#: ../../source/operation.rst:153
+msgid "Click button, then the selected vertices will be snap to the target obj."
+msgstr "点击按钮，则选中的顶点将会捕捉到目标物体上。"
+
+#: ../../source/operation.rst:158
+msgid "Available Patch Patterns"
+msgstr "可用的补丁图案"
+
+#: ../../source/operation.rst:160
+msgid ""
+"This is the patching of the pattern shape. Generally, pattern 0 is the "
+"cleanest. Other patterns are compromises because of the number of edges. For "
+"the cleanest topological shape, choose pattern 0."
+msgstr ""
+"这是图案形状的修补。通常，图案 0 是最干净的。其他图案由于边缘数量而有所妥协。"
+"为了获得最干净的拓扑形状，请选择图案 0。"

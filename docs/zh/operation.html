@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>操作 &mdash; Easy Patch 2 Document  文档</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=5b8091a7"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="使用示例" href="usage_example.html" />
+    <link rel="prev" title="开始" href="get_start.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Easy Patch 2 Document
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_start.html">开始</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">操作</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#snapping-to-vertex">吸附到顶点</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snapping-to-paths">吸附路径</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snapping-to-surfaces">吸附至表面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enable-snapping-to-the-back-face">启用捕捉背面</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#drawing-on-axis-of-symmetry">绘制到对称轴上</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changing-segment-number">更改分段数</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#switching-patterns">切换形状</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changing-solver-constraints-padding-and-additional-edge-flow">改变求解器约束（填充和附加边缘流）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changing-pattern-rotation">改变图案旋转</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#solver-suggestion">求解器建议</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#smoothing-mesh">平滑网格</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snap-selected-vertices-to-surface-button">“将选定顶点捕捉到表面”按钮</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#available-patch-patterns">可用的补丁图案</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage_example.html">使用示例</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">常见问题</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">联系</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Easy Patch 2 Document</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="页面导航">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">操作</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="operation">
+<h1>操作<a class="headerlink" href="#operation" title="Link to this heading"></a></h1>
+<section id="snapping-to-vertex">
+<h2>吸附到顶点<a class="headerlink" href="#snapping-to-vertex" title="Link to this heading"></a></h2>
+<p>绘制边缘流边界时，按住 Ctrl 键捕捉到顶点。</p>
+<video width="70%" controls src="../static/snap_to_exsit_vertex.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="snapping-to-paths">
+<h2>吸附路径<a class="headerlink" href="#snapping-to-paths" title="Link to this heading"></a></h2>
+<p>绘制边缘流边界时，按住 Ctrl 和 Shift 即可捕捉路径。</p>
+<video width="70%" controls src="../static/snap_to_exsit_path.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="snapping-to-surfaces">
+<h2>吸附至表面<a class="headerlink" href="#snapping-to-surfaces" title="Link to this heading"></a></h2>
+<p>按 S 键切换是否捕捉到物体表面。</p>
+<video width="50%" controls src="../static/boundary_snap_to_surface.mp4">
+  Your browser does not support the video tag.
+</video><video width="50%" controls src="../static/pattern_snap_to_surface.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="enable-snapping-to-the-back-face">
+<h2>启用捕捉背面<a class="headerlink" href="#enable-snapping-to-the-back-face" title="Link to this heading"></a></h2>
+<p>按 V 键切换是否捕捉到与法线方向相反的表面。</p>
+<video width="70%" controls src="../static/snap_to_opposit_face.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="drawing-on-axis-of-symmetry">
+<h2>绘制到对称轴上<a class="headerlink" href="#drawing-on-axis-of-symmetry" title="Link to this heading"></a></h2>
+<p>按 M 键切换是否在 yz 平面上绘制。绘制边缘流边界后，此选项将自动设置为禁用，您可以按 ctrl+M 保持启用状态。</p>
+<video width="70%" controls src="../static/draw_on_axis_of_sym.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="changing-segment-number">
+<h2>更改分段数<a class="headerlink" href="#changing-segment-number" title="Link to this heading"></a></h2>
+<p>当您将鼠标悬停在边缘流边界上时，按 ctrl + 鼠标滚轮可以更改该段。</p>
+<video width="70%" controls src="../static/chaning_segment.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="switching-patterns">
+<h2>切换形状<a class="headerlink" href="#switching-patterns" title="Link to this heading"></a></h2>
+<p>当您将鼠标悬停在环路上时，您可以按 T 来更改模式约束以获取特定形状。</p>
+<p>按B键切换是否跳过无解的形状，开启此选项后，切换时会自动跳过无解的形状。</p>
+<video width="70%" controls src="../static/switch_pattern_shape.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="changing-solver-constraints-padding-and-additional-edge-flow">
+<h2>改变求解器约束（填充和附加边缘流）<a class="headerlink" href="#changing-solver-constraints-padding-and-additional-edge-flow" title="Link to this heading"></a></h2>
+<p>当您将鼠标悬停在环路上时，您可以按 shift+鼠标滚轮来更改边界的填充。</p>
+<p>使用 Ctrl + x,y,z 减少附加边流的数量，使用 Shift + x,y,z 增加附加边流的数量。</p>
+<video width="70%" controls src="../static/changing_pattern_padding.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="changing-pattern-rotation">
+<h2>改变图案旋转<a class="headerlink" href="#changing-pattern-rotation" title="Link to this heading"></a></h2>
+<p>当您将鼠标悬停在环路上时，您可以按 R 为解算器添加旋转约束。</p>
+<video width="70%" controls src="../static/changing_pattern_rotation.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="solver-suggestion">
+<h2>求解器建议<a class="headerlink" href="#solver-suggestion" title="Link to this heading"></a></h2>
+<p>当解决方案不能用你的约束条件解决时，会有一个变化的片段建议来指导你得到一个可行的解决方案，这个建议是求解器猜测的，并且是解决方案之一，而不是唯一的。</p>
+<video width="70%" controls src="../static/solver_suggestion.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="smoothing-mesh">
+<h2>平滑网格<a class="headerlink" href="#smoothing-mesh" title="Link to this heading"></a></h2>
+<p>当将鼠标悬停在已生成的网格的循环上时，按 Shift + 1 2 3 可使用三种算法来平滑网格。</p>
+<p>最后第三个是按法线方向平滑。这对于平滑表面很有用。</p>
+<video width="70%" controls src="../static/smooth_by_face_normal_direction.mp4">
+  Your browser does not support the video tag.
+</video></section>
+<hr class="docutils" />
+<section id="snap-selected-vertices-to-surface-button">
+<h2>“将选定顶点捕捉到表面”按钮<a class="headerlink" href="#snap-selected-vertices-to-surface-button" title="Link to this heading"></a></h2>
+<p>点击按钮，则选中的顶点将会捕捉到目标物体上。</p>
+</section>
+<hr class="docutils" />
+<section id="available-patch-patterns">
+<h2>可用的补丁图案<a class="headerlink" href="#available-patch-patterns" title="Link to this heading"></a></h2>
+<p>这是图案形状的修补。通常，图案 0 是最干净的。其他图案由于边缘数量而有所妥协。为了获得最干净的拓扑形状，请选择图案 0。</p>
+<a href="../static/patterns.png" target="_blank">
+    <img src="../static/patterns.png" style="width: 100%;" />
+</a><hr class="docutils" />
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="get_start.html" class="btn btn-neutral float-left" title="开始" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="usage_example.html" class="btn btn-neutral float-right" title="使用示例" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; 版权所有 2024, oimoyu。</p>
+  </div>
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span id="language-label" class="rst-current-version" data-toggle="rst-current-version">
+    Select Language
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+    <dl>
+      <dt>Languages</dt>
+      
+      <dd><a href="javascript:void(0)" class="switch-lang" data-lang="en">English</a></dd><br>
+      
+      <dd><a href="javascript:void(0)" class="switch-lang" data-lang="zh">中文</a></dd><br>
+      
+      <dd><a href="javascript:void(0)" class="switch-lang" data-lang="ja">日本語</a></dd><br>
+      
+    </dl>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var userLang = navigator.language || navigator.userLanguage;
+      if (userLang.startsWith('zh')) {
+        document.getElementById('language-label').textContent = '选择语言';
+      }
+      else if (userLang.startsWith('ja')) {
+        document.getElementById('language-label').textContent = '言語を選択';
+      }
+      else {
+        document.getElementById('language-label').textContent = 'Select Language';
+      }
+
+      document.querySelectorAll('.switch-lang').forEach(function (link) {
+        link.addEventListener('click', function () {
+          var target_lang_id = this.getAttribute('data-lang'); // 获取语言代码
+          var langs = ['en', 'zh', 'ja', ];
+
+      var current_lang_id = "";
+      for (var i = 0; i < langs.length; i++) {
+        if (window.location.pathname.indexOf("/" + langs[i] + "/") !== -1) {
+          current_lang_id = langs[i];
+          break;
+        }
+      }
+      if (!current_lang_id) {
+        alert("language not found");
+      } else {
+        window.location.pathname = window.location.pathname.replace(new RegExp("/" + current_lang_id + "/", "g"), "/" + target_lang_id + "/");
+      }
+
+
+    });
+
+      });
+
+    });
+  </script>
+
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

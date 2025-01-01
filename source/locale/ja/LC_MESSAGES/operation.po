@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, oimoyu
+# This file is distributed under the same license as the Easy Patch 2
+# Document package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Patch 2 Document\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-01 19:56+0800\n"
+"PO-Revision-Date: 2025-01-01 20:12+0800\n"
+"Last-Translator: \n"
+"Language-Team: ja <LL@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Generator: Poedit 3.5\n"
+
+#: ../../source/operation.rst:2
+msgid "Operation"
+msgstr "操作"
+
+#: ../../source/operation.rst:5
+msgid "Snapping to Vertex"
+msgstr "頂点へのスナップ"
+
+#: ../../source/operation.rst:6
+msgid "While drawing an edgeflow boundary, hold down Ctrl to snap to Vertex."
+msgstr ""
+"エッジフロー境界を描画しているときに、Ctrl キーを押したままにして頂点にスナッ"
+"プします。"
+
+#: ../../source/operation.rst:19
+msgid "Snapping to Paths"
+msgstr "パスへのスナップ"
+
+#: ../../source/operation.rst:20
+msgid ""
+"While drawing an edgeflow boundary, hold down Ctrl and Shift to snap to paths."
+msgstr ""
+"エッジフロー境界を描画しているときに、Ctrl キーと Shift キーを押したままにして"
+"パスにスナップします。"
+
+#: ../../source/operation.rst:32
+msgid "Snapping to Surfaces"
+msgstr "サーフェスへのスナップ"
+
+#: ../../source/operation.rst:33
+msgid "Press the S key to toggle if snapping to object surfaces."
+msgstr ""
+"S キーを押すと、オブジェクトの表面にスナップするかどうかが切り替わります。"
+
+#: ../../source/operation.rst:50
+msgid "Enable Snapping to the Back Face"
+msgstr "背面へのスナップを有効にする"
+
+#: ../../source/operation.rst:51
+msgid ""
+"Press the V key to toggle if snapping to surfaces opposite the normal "
+"direction."
+msgstr ""
+"法線方向と反対のサーフェスにスナップするかどうかを切り替えるには、V キーを押し"
+"ます。"
+
+#: ../../source/operation.rst:62
+msgid "Drawing on Axis of Symmetry"
+msgstr "対称軸を描く"
+
+#: ../../source/operation.rst:63
+msgid ""
+"Press the M key to toggle if drawing on the yz plane. After you draw a "
+"edgeflow boundary, this option will auto set to disable, you can press ctrl+M "
+"to keep this enable."
+msgstr ""
+"M キーを押すと、yz 平面に描画するかどうかが切り替わります。エッジフロー境界を"
+"描画した後、このオプションは自動的に無効に設定され、Ctrl + M を押すと有効のま"
+"まになります。"
+
+#: ../../source/operation.rst:74
+msgid "Changing Segment number"
+msgstr "セグメント番号の変更"
+
+#: ../../source/operation.rst:75
+msgid ""
+"When you hovering a edgeflow boundary, ctrl+mouse wheel can change the "
+"segment."
+msgstr ""
+"エッジフロー境界にマウスを移動すると、Ctrl キーを押しながらマウス ホイールを押"
+"すとセグメントを変更できます。"
+
+#: ../../source/operation.rst:86
+msgid "Switching Patterns"
+msgstr "パターンの切り替え"
+
+#: ../../source/operation.rst:87
+msgid ""
+"When you hovering a Loop, you can press T to changing the pattern constraint "
+"to get specific pattern."
+msgstr ""
+"ループにカーソルを合わせると、T キーを押してパターン制約を変更し、特定のパター"
+"ンを取得できます。"
+
+#: ../../source/operation.rst:89
+msgid ""
+"Press the B key to toggle whether to skip shapes with no solution. When this "
+"option is enabled, shapes without solutions will be automatically skipped "
+"when switching."
+msgstr ""
+"B キーを押すと、解のない図形をスキップするかどうかを切り替えます。このオプショ"
+"ンを有効にすると、切り替え時に解のない図形は自動的にスキップされます。"
+
+#: ../../source/operation.rst:100
+msgid "Changing Solver Constraints (Padding and Additional Edge Flow)"
+msgstr "ソルバー制約の変更（パディングと追加エッジフロー）"
+
+#: ../../source/operation.rst:101
+msgid ""
+"When you hovering a Loop, you can press shift+mouse wheel to hange the "
+"padding of a boundary."
+msgstr ""
+"ループにマウスを置いたときに、Shift キーを押しながらマウスホイールを押すと、境"
+"界のパディングを変更できます。"
+
+#: ../../source/operation.rst:103
+msgid ""
+"Use Ctrl + x,y,z to reduce the number of additional edge flows, Shift + x,y,z "
+"to increase the number of additional edge flows."
+msgstr ""
+"追加のエッジ フローの数を減らすには Ctrl + x、y、z を使用し、追加のエッジ フ"
+"ローの数を増やすには Shift + x、y、z を使用します。"
+
+#: ../../source/operation.rst:114
+msgid "Changing Pattern Rotation"
+msgstr "パターンの回転を変更する"
+
+#: ../../source/operation.rst:115
+msgid ""
+"When you hovering a Loop, you can press R to add rotation constraint to "
+"solver."
+msgstr ""
+"ループにカーソルを合わせると、R キーを押してソルバーに回転制約を追加できます。"
+
+#: ../../source/operation.rst:126
+msgid "Solver Suggestion"
+msgstr "ソルバーの提案"
+
+#: ../../source/operation.rst:127
+msgid ""
+"When the resolution can not solve with your constraint, there will be a "
+"changing segment suggestion to guide you get a feasible solution, this "
+"suggestion is guess by solver, and is one fot the solution, not the only one."
+msgstr ""
+"制約で解決できない場合は、実行可能なソリューションを得るための変更セグメントの"
+"提案が表示されます。この提案はソルバーによって推測されるものであり、唯一のソ"
+"リューションではなく、ソリューションの 1 つです。"
+
+#: ../../source/operation.rst:138
+msgid "Smoothing Mesh"
+msgstr "スムージングメッシュ"
+
+#: ../../source/operation.rst:139
+msgid ""
+"When you hovering a Loop with a generated mesh, press Shift + 1 2 3 to smooth "
+"the mesh with three algorithm."
+msgstr ""
+"生成されたメッシュを含むループにカーソルを合わせると、Shift + 1 2 3 を押すと、"
+"3 つのアルゴリズムでメッシュが滑らかになります。"
+
+#: ../../source/operation.rst:141
+msgid ""
+"The last thrid one is smoothing by normal direction. It is useful for patches "
+"to a smooth surfaces."
+msgstr ""
+"最後の 3 つ目は法線方向によるスムージングです。これは滑らかな表面へのパッチに"
+"役立ちます。"
+
+#: ../../source/operation.rst:152
+msgid "\"Snap Selected Vertices to surface\" Button"
+msgstr "「選択した頂点をサーフェスにスナップ」ボタン"
+
+#: ../../source/operation.rst:153
+msgid "Click button, then the selected vertices will be snap to the target obj."
+msgstr ""
+"ボタンをクリックすると、選択した頂点がターゲット オブジェクトにスナップされま"
+"す。"
+
+#: ../../source/operation.rst:158
+msgid "Available Patch Patterns"
+msgstr "利用可能なパッチパターン"
+
+#: ../../source/operation.rst:160
+msgid ""
+"This is the patching of the pattern shape. Generally, pattern 0 is the "
+"cleanest. Other patterns are compromises because of the number of edges. For "
+"the cleanest topological shape, choose pattern 0."
+msgstr ""
+"これはパターン形状のパッチです。一般的に、パターン 0 が最もきれいです。他のパ"
+"ターンはエッジの数による妥協です。最もきれいなトポロジ形状を得るには、パター"
+"ン 0 を選択します。"
