@@ -148,6 +148,18 @@ The last thrid one is smoothing by normal direction. It is useful for patches to
 
 ----
 
+Fix Normal
+-----------------------------
+When you hovering a Loop with a generated mesh, press i to let the faces normal toward you.
+
+.. raw:: html
+
+    <video width="70%" controls src="../static/pattern_normal_toward_viewer.mp4">
+      Your browser does not support the video tag.
+    </video>
+
+----
+
 "Snap Selected Vertices to surface" Button
 ------------------------------------------------------
 Click button, then the selected vertices will be snap to the target obj.

@@ -82,13 +82,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="introduction">
+  <a href="../static/easy_patch_2_head_demo.png" target="_blank">
+    <img src="../static/easy_patch_2_head_demo.png" style="width: 100%;" />
+</a><hr class="docutils" />
+<section id="introduction">
 <h1>概要<a class="headerlink" href="#introduction" title="Link to this heading"></a></h1>
+<p><a class="reference external" href="https://blendermarket.com/products/easy_patch">https://blendermarket.com/products/easy_patch</a></p>
 <p>Easy Patch 2 は、パッチ内に標準トポロジ メッシュを作成するのに役立ちます。パッチの境界を自由に描画でき、結果は N 極と E 極のみを含む四角形メッシュと極で構成されます。これは完全に自動化されたリトポロジ アドオンではありませんが、このアドオンはエッジ フローを制御したい人に適しています。作成できるエッジフロー境界の数は 3 ～ 6 です。</p>
+<hr class="docutils" />
 <section id="tips-for-use">
 <h2>使用上のヒント<a class="headerlink" href="#tips-for-use" title="Link to this heading"></a></h2>
 <p>良い結果を得るには、エッジフローの流れを知っておく必要があります。エッジフローを区別する簡単な方法は、鋭い角で分離することです。すべてのエッジフローは対応する境界であり、アドオンはエッジフローの組み合わせを計算します。エッジフローはグリッドメッシュのようなもので、以下の頭の例では、エッジフローは目、頬、あご、マウス、鼻から来ています。(鼻と人中から来るエッジフローにはそれらを分離する明確な鋭い角がないため、1つのエッジフローと見なします。) そのため、すべてのエッジフローに5つの境界を描きます。</p>
-</section>
+<a href="../static/tips_for_use.png" target="_blank">
+    <img src="../static/tips_for_use.png" style="width: 100%;" />
+</a></section>
+<hr class="docutils" />
 <section id="what-is-difference-between-1-and-2">
 <h2>1と2の違いは何ですか<a class="headerlink" href="#what-is-difference-between-1-and-2" title="Link to this heading"></a></h2>
 <p>エッジフロー境界を自由に滑らかに描画できるよう描画ロジックを書き換えました。慣れない方のためにダウンロード可能なものも1つ残しておきます。</p>

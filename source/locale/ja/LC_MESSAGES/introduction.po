@@ -9,23 +9,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Easy Patch 2 Document\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-01 19:56+0800\n"
+"POT-Creation-Date: 2025-01-01 20:50+0800\n"
 "PO-Revision-Date: 2025-01-01 20:01+0800\n"
 "Last-Translator: \n"
-"Language-Team: ja <LL@li.org>\n"
 "Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "Generated-By: Babel 2.14.0\n"
-"X-Generator: Poedit 3.4.2\n"
 
 #: ../../source/introduction.rst:2
 msgid "Introduction"
 msgstr "概要"
 
-#: ../../source/introduction.rst:3
+#: ../../source/introduction.rst:4
+msgid "https://blendermarket.com/products/easy_patch"
+msgstr ""
+
+#: ../../source/introduction.rst:6
 msgid ""
 "Easy Patch 2 can help you create standard topology mesh in a patch, you "
 "can freely draw the boundary of patch, the result consists by quad mesh "
@@ -33,17 +36,15 @@ msgid ""
 "retopology addon, this addon is suitable for those who want to control "
 "edge flow. The number of edgeflow boundaries you can create is 3~6."
 msgstr ""
-"Easy Patch 2 は、パッチ内に標準トポロジ メッシュを作成するのに役立ちま"
-"す。パッチの境界を自由に描画でき、結果は N 極と E 極のみを含む四角形メッ"
-"シュと極で構成されます。これは完全に自動化されたリトポロジ アドオンではあ"
-"りませんが、このアドオンはエッジ フローを制御したい人に適しています。作成"
-"できるエッジフロー境界の数は 3 ～ 6 です。"
+"Easy Patch 2 は、パッチ内に標準トポロジ メッシュを作成するのに役立ちます。パッチの境界を自由に描画でき、結果は N 極と E "
+"極のみを含む四角形メッシュと極で構成されます。これは完全に自動化されたリトポロジ アドオンではありませんが、このアドオンはエッジ "
+"フローを制御したい人に適しています。作成できるエッジフロー境界の数は 3 ～ 6 です。"
 
-#: ../../source/introduction.rst:7
+#: ../../source/introduction.rst:10
 msgid "Tips for use"
 msgstr "使用上のヒント"
 
-#: ../../source/introduction.rst:8
+#: ../../source/introduction.rst:11
 msgid ""
 "For a good result, you should know the edge flow going. A simple way to "
 "distinguish edge flow is separate it them by sharp corner. Every edge "
@@ -54,38 +55,32 @@ msgid ""
 "philtrum do not have a clear sharp corner to separate them, so I regard "
 "them as one edge flow.) , so I draw 5 boundaries for every edge flow."
 msgstr ""
-"良い結果を得るには、エッジフローの流れを知っておく必要があります。エッジ"
-"フローを区別する簡単な方法は、鋭い角で分離することです。すべてのエッジフ"
-"ローは対応する境界であり、アドオンはエッジフローの組み合わせを計算しま"
-"す。エッジフローはグリッドメッシュのようなもので、以下の頭の例では、エッ"
-"ジフローは目、頬、あご、マウス、鼻から来ています。(鼻と人中から来るエッジ"
-"フローにはそれらを分離する明確な鋭い角がないため、1つのエッジフローと見な"
-"します。) そのため、すべてのエッジフローに5つの境界を描きます。"
+"良い結果を得るには、エッジフローの流れを知っておく必要があります。エッジフローを区別する簡単な方法は、鋭い角で分離することです。すべてのエッジフローは対応する境界であり、アドオンはエッジフローの組み合わせを計算します。エッジフローはグリッドメッシュのようなもので、以下の頭の例では、エッジフローは目、頬、あご、マウス、鼻から来ています。(鼻と人中から来るエッジフローにはそれらを分離する明確な鋭い角がないため、1つのエッジフローと見なします。)"
+" そのため、すべてのエッジフローに5つの境界を描きます。"
 
-#: ../../source/introduction.rst:12
+#: ../../source/introduction.rst:15
 msgid "What is difference between 1 and 2"
 msgstr "1と2の違いは何ですか"
 
-#: ../../source/introduction.rst:13
+#: ../../source/introduction.rst:16
 msgid ""
 "I rewrite the drawing logic so you can freely and smoothly draw edgeflow "
 "boundary. If you are not confortable with it, I also remaing 1 "
 "downloadable."
-msgstr ""
-"エッジフロー境界を自由に滑らかに描画できるよう描画ロジックを書き換えまし"
-"た。慣れない方のためにダウンロード可能なものも1つ残しておきます。"
+msgstr "エッジフロー境界を自由に滑らかに描画できるよう描画ロジックを書き換えました。慣れない方のためにダウンロード可能なものも1つ残しておきます。"
 
-#: ../../source/introduction.rst:17
+#: ../../source/introduction.rst:20
 msgid "Reference"
 msgstr ""
 
-#: ../../source/introduction.rst:18
+#: ../../source/introduction.rst:21
 msgid ""
 "[1]. Takayama, Kenshi, Daniele Panozzo, and Olga Sorkine‐Hornung. "
 "\"Pattern‐Based Quadrangulation for N‐Sided Patches.\" Computer Graphics "
 "Forum. Vol. 33. No. 5. 2014."
 msgstr ""
 
-#: ../../source/introduction.rst:20
+#: ../../source/introduction.rst:23
 msgid "[2]. https://github.com/fedackb/mesh-fairing"
 msgstr ""
+

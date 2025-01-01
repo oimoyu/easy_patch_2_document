@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Easy Patch 2 Document\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-01 19:56+0800\n"
-"PO-Revision-Date: 2025-01-01 20:19+0800\n"
+"POT-Creation-Date: 2025-01-01 20:50+0800\n"
+"PO-Revision-Date: 2025-01-01 20:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: zh <LL@li.org>\n"
 "Language: zh\n"
@@ -25,7 +25,11 @@ msgstr ""
 msgid "Introduction"
 msgstr "介绍"
 
-#: ../../source/introduction.rst:3
+#: ../../source/introduction.rst:4
+msgid "https://blendermarket.com/products/easy_patch"
+msgstr "https://gf.bilibili.com/item/detail/1105255007"
+
+#: ../../source/introduction.rst:6
 msgid ""
 "Easy Patch 2 can help you create standard topology mesh in a patch, you "
 "can freely draw the boundary of patch, the result consists by quad mesh "
@@ -38,11 +42,11 @@ msgstr ""
 "新拓扑插件，该插件适合那些想要控制边缘流的人。您可以创建的边缘流边界数量"
 "为 3~6。"
 
-#: ../../source/introduction.rst:7
+#: ../../source/introduction.rst:10
 msgid "Tips for use"
 msgstr ""
 
-#: ../../source/introduction.rst:8
+#: ../../source/introduction.rst:11
 msgid ""
 "For a good result, you should know the edge flow going. A simple way to "
 "distinguish edge flow is separate it them by sharp corner. Every edge "
@@ -59,11 +63,11 @@ msgstr ""
 "察到来自鼻子和人中的边缘流没有明显的尖角来分隔它们，所以我把它们当作一个"
 "边缘流。）所以我为每个边缘流画了 5 个边界。"
 
-#: ../../source/introduction.rst:12
+#: ../../source/introduction.rst:15
 msgid "What is difference between 1 and 2"
 msgstr "1 和 2 有什么区别"
 
-#: ../../source/introduction.rst:13
+#: ../../source/introduction.rst:16
 msgid ""
 "I rewrite the drawing logic so you can freely and smoothly draw edgeflow "
 "boundary. If you are not confortable with it, I also remaing 1 "
@@ -72,17 +76,17 @@ msgstr ""
 "我重写了绘图逻辑，以便您可以自由流畅地绘制边缘流边界。如果您对此不满意，"
 "我还留下了 1 个可下载的。"
 
-#: ../../source/introduction.rst:17
+#: ../../source/introduction.rst:20
 msgid "Reference"
 msgstr ""
 
-#: ../../source/introduction.rst:18
+#: ../../source/introduction.rst:21
 msgid ""
 "[1]. Takayama, Kenshi, Daniele Panozzo, and Olga Sorkine‐Hornung. "
 "\"Pattern‐Based Quadrangulation for N‐Sided Patches.\" Computer Graphics "
 "Forum. Vol. 33. No. 5. 2014."
 msgstr ""
 
-#: ../../source/introduction.rst:20
+#: ../../source/introduction.rst:23
 msgid "[2]. https://github.com/fedackb/mesh-fairing"
 msgstr ""
