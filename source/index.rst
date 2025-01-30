@@ -9,4 +9,5 @@ Welcome to Blender Easy Patch 2 documentation!
    operation
    usage_example
    faq
+   update_log
    contact
